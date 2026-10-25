@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <title>ChatGPT Webtest · JoGoMa</title>
+  <style>
+    :root{color-scheme:dark;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0e1524;color:#f5f7ff}
+    *{box-sizing:border-box}body{min-height:100vh;margin:0;display:grid;place-items:center;padding:24px;background:radial-gradient(circle at 30% 20%,#23385e 0,transparent 45%),#0e1524}
+    main{width:min(100%,670px);padding:clamp(28px,6vw,58px);border:1px solid #ffffff26;border-radius:25px;background:#ffffff0a;box-shadow:0 25px 80px #0005}
+    .pill{display:inline-flex;align-items:center;gap:9px;color:#b6f2d1;font-size:14px;font-weight:650}.dot{height:9px;width:9px;border-radius:50%;background:#4ade80;box-shadow:0 0 14px #4ade80}
+    h1{font-size:clamp(36px,7vw,58px);letter-spacing:-.05em;line-height:1.08;margin:25px 0 16px}p{color:#c6cfe0;font-size:18px;line-height:1.65;margin-bottom:30px}
+    button{appearance:none;border:0;border-radius:12px;background:#a7f3d0;color:#10271e;font:700 16px inherit;padding:14px 20px;cursor:pointer}button:hover{background:#6ee7b7}#feedback{min-height:1.6em;margin-top:18px;color:#a7f3d0;font-size:15px}
+    footer{border-top:1px solid #ffffff25;padding-top:21px;margin-top:30px;font-size:13px;color:#9aaac3}
+  </style>
+</head>
+<body>
+  <main>
+    <span class="pill"><span class="dot"></span> GitHub Pages Testprojekt</span>
+    <h1>Hallo, Internet. 👋</h1>
+    <p>Diese Test-Webseite wurde gemeinsam mit ChatGPT erstellt. Sobald GitHub Pages aktiviert ist, kann jeder sie über einen öffentlichen Link aufrufen.</p>
+    <button id="test" type="button">Interaktivität testen</button>
+    <div id="feedback" role="status" aria-live="polite"></div>
+    <footer>JoGoMa / chatgpt-webtest · HTML, CSS &amp; JavaScript · Keine Datenübertragung</footer>
+  </main>
+  <script>
+    document.getElementById('test').addEventListener('click', () => {
+      document.getElementById('feedback').textContent = '✓ JavaScript funktioniert – deine Webseite ist interaktiv!';
+    });
+  </script>
+</body>
+</html>
