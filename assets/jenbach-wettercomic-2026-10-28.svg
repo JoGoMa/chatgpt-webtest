@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 760" role="img" aria-labelledby="title desc">
+<title id="title">Die Eule und das Herbst-Update – Jenbach, 28. Oktober 2026</title>
+<desc id="desc">Humorvoller Wettercomic: Eine Eule mit gelben Gummistiefeln und einem Schirm begegnet einer grauen Regenwolke. Die Wolke kündigt Regen am Nachmittag an. Im Hintergrund die Tiroler Berge.</desc>
+<defs>
+<linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#b7d7e6"/><stop offset="1" stop-color="#e7e7dc"/></linearGradient>
+<linearGradient id="hills" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#617f89"/><stop offset="1" stop-color="#41686c"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".2"/></filter>
+</defs>
+<rect width="960" height="760" rx="26" fill="url(#sky)"/>
+<g fill="#f9f5e9" stroke="#274455" stroke-width="7" stroke-linejoin="round">
+<rect x="34" y="25" width="892" height="88" rx="22" fill="#fff6d6"/>
+</g>
+<text x="66" y="81" font-size="39" font-family="Arial, sans-serif" font-weight="900" fill="#243b4d">JENBACH · HERBST-UPDATE</text>
+<g opacity=".9"><path d="M0 490 130 325 238 440 375 245 517 433 651 296 800 441 960 333V760H0" fill="#6d8997"/><path d="m331 300 44-55 44 59-41-15-26 18m266 31 33-42 34 48-34-15-19 10" fill="#e9f2ed"/><path d="M0 557 155 419 301 535 441 398 595 548 744 418 960 539V760H0" fill="url(#hills)"/></g>
+<path d="M0 639Q240 582 476 639T960 626V760H0Z" fill="#88a79a"/>
+<path d="M0 695Q200 648 420 688T960 669V760H0Z" fill="#6e9684"/>
+<g stroke="#7a9baa" stroke-width="6" stroke-linecap="round" opacity=".8">
+<path d="m170 480-17 32m62-11-17 32m60-30-17 32m43-9-17 32m390-39-17 32m59-16-17 32m60-25-17 32m64-18-17 32"/>
+</g>
+<!-- rain cloud, with a little office clipboard -->
+<g filter="url(#shadow)">
+<path d="M555 257c-26-18-27-57 4-76 18-12 41-11 59-3 15-40 69-52 102-22 19-15 53-13 73 9 32-3 60 21 60 51 23 22 8 61-24 62H592c-19 0-33-7-37-21Z" fill="#b6c2c9" stroke="#2d4658" stroke-width="9" stroke-linejoin="round"/>
+<circle cx="666" cy="227" r="8" fill="#2b4050"/><circle cx="729" cy="227" r="8" fill="#2b4050"/>
+<path d="M681 251q16 14 33 0" stroke="#2b4050" stroke-width="6" fill="none" stroke-linecap="round"/>
+</g>
+<!-- comic speech cloud -->
+<g filter="url(#shadow)">
+<path d="M560 309h316q28 0 28 27v85q0 27-28 27H721l-45 42 7-42H560q-28 0-28-27v-85q0-27 28-27Z" fill="#fffaf0" stroke="#30495a" stroke-width="8"/>
+<text x="718" y="356" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="800" fill="#243b4d">NACHMITTAGS</text>
+<text x="718" y="389" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="800" fill="#243b4d">BIN ICH DRAN!</text>
+<text x="718" y="420" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#4c6270">— die Regenwolke</text>
+</g>
+<!-- umbrella -->
+<g stroke="#263e4e" stroke-linecap="round" stroke-linejoin="round">
+<path d="M296 297Q359 178 487 272Q391 251 296 297Z" fill="#e7a85f" stroke-width="10"/>
+<path d="M389 262l-1 324q0 41 40 28" fill="none" stroke-width="12"/>
+<path d="M297 295q48-37 90-29t100 6" fill="none" stroke-width="7"/>
+</g>
+<!-- owl -->
+<g filter="url(#shadow)" stroke="#263e4e" stroke-linejoin="round">
+<path d="M243 510q-72-40-88 49l70 12M436 511q69-36 87 47l-65 18" fill="#b47c53" stroke-width="10"/>
+<ellipse cx="340" cy="521" rx="134" ry="155" fill="#a96e4e" stroke-width="11"/>
+<ellipse cx="343" cy="563" rx="90" ry="94" fill="#f3d8a5" stroke-width="6"/>
+<path d="M223 440 211 324l105 74M463 442l12-118-105 74" fill="#a96e4e" stroke-width="11"/>
+<circle cx="289" cy="474" r="58" fill="#f5e7c7" stroke-width="7"/>
+<circle cx="399" cy="474" r="58" fill="#f5e7c7" stroke-width="7"/>
+<circle cx="300" cy="477" r="13" fill="#293c4a" stroke="none"/><circle cx="389" cy="477" r="13" fill="#293c4a" stroke="none"/>
+<path d="m330 512 15 29 17-29Z" fill="#f4b95e" stroke-width="6"/>
+<path d="M330 555q16 11 33 0" fill="none" stroke="#89553d" stroke-width="6" stroke-linecap="round"/>
+<path d="m275 650-17 53h74l-5-50m57-3-3 53h74l-22-58" fill="#f2cb60" stroke-width="9"/>
+</g>
+<!-- owl's joke -->
+<g filter="url(#shadow)">
+<path d="M46 178h325q27 0 27 26v91q0 26-27 26H236l-29 38-5-38H46q-25 0-25-26v-91q0-26 25-26Z" fill="#fff8e4" stroke="#2d4658" stroke-width="8"/>
+<text x="210" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="800" fill="#293e4e">ICH HABE EINEN</text>
+<text x="210" y="256" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="800" fill="#293e4e">SCHIRM.</text>
+<text x="210" y="289" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#293e4e">MEIN KAFFEE NICHT.</text>
+</g>
+<g transform="translate(35 660) rotate(-4)">
+<rect width="191" height="64" rx="14" fill="#fff6d5" stroke="#2e4657" stroke-width="7"/>
+<text x="96" y="44" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="900" fill="#2b4552">28. OKT.</text>
+</g>
+<g transform="translate(700 665)">
+<rect width="225" height="58" rx="14" fill="#fff6d5" stroke="#2e4657" stroke-width="6"/>
+<text x="113" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="900" fill="#2b4552">6–16 °C</text>
+</g>
+</svg>
