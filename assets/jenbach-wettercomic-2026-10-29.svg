@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+<title id="title">Jenbach Wettercomic – Die Eule und die Nebelkonferenz, 29. Oktober 2026</title>
+<desc id="desc">Drei humorvolle Panels mit Eule vor den Tiroler Bergen: Morgens Nebel, tagsüber wechselnde Wolken und Sonne, abends die Eule bei der Nachtschicht.</desc>
+<defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#a4d5ee"/><stop offset="1" stop-color="#e4f1de"/></linearGradient>
+<linearGradient id="evening" x2="0" y2="1"><stop stop-color="#5568a0"/><stop offset="1" stop-color="#f2a77c"/></linearGradient>
+<linearGradient id="hill" x2="0" y2="1"><stop stop-color="#547d7a"/><stop offset="1" stop-color="#243e57"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#12243b" flood-opacity=".26"/></filter>
+<clipPath id="c1"><rect x="28" y="155" width="365" height="556" rx="23"/></clipPath>
+<clipPath id="c2"><rect x="418" y="155" width="365" height="556" rx="23"/></clipPath>
+<clipPath id="c3"><rect x="808" y="155" width="365" height="556" rx="23"/></clipPath>
+<g id="owl" stroke="#40352d" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+<path d="M-75 -50L-91 -119 -38 -90Q0 -110 38 -90L91 -119 75 -50Q109 0 76 74Q44 109 0 107Q-44 109 -76 74Q-109 0 -75 -50Z" fill="#a66d3e"/>
+<ellipse cx="0" cy="20" rx="65" ry="76" fill="#e9c996" stroke="none"/>
+<path d="M-71 15Q-120 39 -92 83L-60 58M71 15Q120 39 92 83L60 58" fill="#875331"/>
+<circle cx="-34" cy="-26" r="35" fill="#fff1d4"/><circle cx="34" cy="-26" r="35" fill="#fff1d4"/>
+<circle cx="-27" cy="-22" r="14" fill="#253a46"/><circle cx="27" cy="-22" r="14" fill="#253a46"/>
+<circle cx="-23" cy="-27" r="5" fill="#fff" stroke="none"/><circle cx="31" cy="-27" r="5" fill="#fff" stroke="none"/>
+<path d="M-13 8L0 29 13 8Z" fill="#e3a04c"/>
+<path d="M-31 106L-33 125M-13 108L-13 125M13 108L13 125M31 106L33 125" stroke="#d79d50"/>
+</g>
+<g id="mountains">
+<path d="M0 350L55 256 100 309 153 228 214 336 280 250 365 340V556H0Z" fill="#7099a4"/>
+<path d="M0 380L80 300 133 349 200 279 290 377 365 307V556H0Z" fill="#4a7082"/>
+<path d="M40 282L55 256 72 280M135 254L153 228 174 255M267 268L280 250 296 270" stroke="#edf6f3" stroke-width="14" fill="none"/>
+<path d="M0 443Q88 410 176 445T365 438V556H0Z" fill="url(#hill)"/>
+</g>
+</defs>
+<rect width="1200" height="780" rx="28" fill="#f4ead0"/>
+<text x="45" y="67" font-family="system-ui,sans-serif" font-weight="900" font-size="44" fill="#24394d">DIE GROSSE NEBELKONFERENZ</text>
+<text x="48" y="109" font-family="system-ui,sans-serif" font-weight="600" font-size="23" fill="#57667a">JENBACH · DONNERSTAG, 29. OKTOBER 2026</text>
+<rect x="953" y="35" width="210" height="75" rx="18" fill="#ffe4a0" stroke="#d6a34d" stroke-width="3"/>
+<text x="1058" y="68" font-family="system-ui,sans-serif" text-anchor="middle" font-size="18" font-weight="800" fill="#4b4234">EULEN-WETTER</text>
+<text x="1058" y="94" font-family="system-ui,sans-serif" text-anchor="middle" font-size="16" fill="#4b4234">Spezialausgabe</text>
+<!-- Morning -->
+<g clip-path="url(#c1)">
+<rect x="28" y="155" width="365" height="556" fill="url(#sky)"/>
+<g transform="translate(28 155)"><use href="#mountains"/></g>
+<path d="M28 480Q160 445 393 487V595H28Z" fill="#e6ece6" opacity=".88"/>
+<path d="M28 525Q175 497 393 536V595H28Z" fill="#f6f9ee" opacity=".78"/>
+<g transform="translate(218 539) scale(.92)" filter="url(#shadow)"><use href="#owl"/></g>
+<path d="M260 651h78l-9-60h-62Z" fill="#4a7d86" stroke="#2d4655" stroke-width="5"/>
+<path d="M337 600q32 0 23 28t-28 9" fill="none" stroke="#2d4655" stroke-width="7"/>
+<path d="M277 585q-14-24 0-39m23 39q-13-23 1-37" fill="none" stroke="#b6d3d4" stroke-width="5" opacity=".7"/>
+</g>
+<!-- Day -->
+<g clip-path="url(#c2)">
+<rect x="418" y="155" width="365" height="556" fill="url(#sky)"/>
+<g transform="translate(418 155)"><use href="#mountains"/></g>
+<circle cx="689" cy="316" r="67" fill="#ffdc77"/>
+<g stroke="#ffd578" stroke-width="8" stroke-linecap="round">
+<path d="M689 219v-22M689 411v23M591 316h-25M787 316h25M620 247l-19-19M759 385l19 19M758 247l20-19M620 385l-19 19"/>
+</g>
+<path d="M506 322q-37-29 0-55q9-37 56-28q30-25 59 7q44-8 51 29q36 22 0 47Z" fill="#fff" stroke="#b6d0d7" stroke-width="5"/>
+<g transform="translate(605 537) scale(.93)" filter="url(#shadow)"><use href="#owl"/></g>
+<path d="M543 640q50 27 125 0" fill="none" stroke="#8c6749" stroke-width="12" stroke-linecap="round"/>
+</g>
+<!-- Evening -->
+<g clip-path="url(#c3)">
+<rect x="808" y="155" width="365" height="556" fill="url(#evening)"/>
+<g transform="translate(808 155)"><use href="#mountains"/></g>
+<circle cx="1090" cy="316" r="41" fill="#ffda9e"/>
+<path d="M820 409q115-75 354 5v297H808Z" fill="#304f71" opacity=".45"/>
+<g transform="translate(1006 541) scale(.92)" filter="url(#shadow)"><use href="#owl"/></g>
+<path d="M1046 665h71l-8-59h-55Z" fill="#3d7887" stroke="#2d4655" stroke-width="5"/>
+<path d="M1115 618q30 0 21 25t-27 9" fill="none" stroke="#2d4655" stroke-width="7"/>
+<g fill="#fff4cd"><circle cx="869" cy="232" r="3"/><circle cx="947" cy="272" r="3"/><circle cx="1137" cy="224" r="3"/></g>
+</g>
+<!-- Headers -->
+<g font-family="system-ui,sans-serif" font-size="21" font-weight="850" fill="#24394d" text-anchor="middle">
+<rect x="46" y="174" width="329" height="49" rx="13" fill="#fff6e2" stroke="#3b5261" stroke-width="3"/><text x="210" y="207">MORGENS · NEBEL?</text>
+<rect x="436" y="174" width="329" height="49" rx="13" fill="#fff6e2" stroke="#3b5261" stroke-width="3"/><text x="600" y="207">TAGSÜBER · SONNENFENSTER</text>
+<rect x="826" y="174" width="329" height="49" rx="13" fill="#fff6e2" stroke="#3b5261" stroke-width="3"/><text x="990" y="207">ABENDS · EULENSCHICHT</text>
+</g>
+<!-- Speech balloons -->
+<g font-family="system-ui,sans-serif" fill="#25394c" text-anchor="middle" font-weight="700" font-size="20">
+<path d="M59 258Q59 235 82 235H348Q370 235 370 258V364Q370 386 348 386H230L209 413 198 386H82Q59 386 59 364Z" fill="#fffdf7" stroke="#30485a" stroke-width="4"/>
+<text x="215" y="278"><tspan x="215">„Der Nebel hat</tspan><tspan x="215" dy="30">das Tal gebucht.</tspan><tspan x="215" dy="30">Ohne Aussicht!“</tspan></text>
+<path d="M450 267Q450 244 473 244H729Q751 244 751 267V355Q751 378 729 378H627L611 405 596 378H473Q450 378 450 355Z" fill="#fffdf7" stroke="#30485a" stroke-width="4"/>
+<text x="600" y="282"><tspan x="600">„Sonne und Wolken</tspan><tspan x="600" dy="30">teilen sich heute</tspan><tspan x="600" dy="30">den Schreibtisch!“</tspan></text>
+<path d="M833 262Q833 239 856 239H1128Q1151 239 1151 262V363Q1151 385 1128 385H1029L1012 411 995 385H856Q833 385 833 363Z" fill="#fffdf7" stroke="#30485a" stroke-width="4"/>
+<text x="990" y="281"><tspan x="990">„Feierabend für</tspan><tspan x="990" dy="30">die Sonne?</tspan><tspan x="990" dy="30">Ich übernehme!“</tspan></text>
+</g>
+<g fill="none" stroke="#344e60" stroke-width="5"><rect x="28" y="155" width="365" height="556" rx="23"/><rect x="418" y="155" width="365" height="556" rx="23"/><rect x="808" y="155" width="365" height="556" rx="23"/></g>
+<text x="600" y="754" font-family="system-ui,sans-serif" text-anchor="middle" font-size="17" fill="#3e5865">Humorvolle Illustration zur Prognose · mögliche Nebelfelder, zeitweise Wolken und Sonne · eigene Zeichnung</text>
+</svg>
